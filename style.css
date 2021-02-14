@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+   width:645px;
+   height:645px;
+   margin: 200px auto 50px ; 
+   border:solid coral 5px;
+   border-radius:5px; 
+   display:grid; 
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.frame1{
+    background-image: url('frame1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px;
+    transition:opacity .5s ;
+    opacity:1;
+
+}
+
+.frame2{
+    background-image: url('frame2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+ 
+}
+.frame3{
+    background-image: url('frame3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px; 
+    transition:opacity 2s ;
+    opacity:1;
+}
+.frame4{
+    background-image: url('frame4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+ 
+}
+.frame4{
+    background-image: url('frame4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+}
+.frame5{
+    background-image: url('frame5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+}
+.frame6{
+    background-image: url('frame6.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+}
+.frame7{
+    background-image: url('frame7.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%; 
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+}
+.frame8{
+    background-image: url('frame8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+}
+.frame9{
+    background-image: url('frame9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+}
+.frame10{
+    background-image: url('frame10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+}
+.frame11{
+    background-image: url('frame11.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1;
+}
+.frame12{
+    background-image: url('frame12.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:solid green 0px;
+    transition:opacity 2s ;
+    opacity:1; 
+}
+.replay{
+    background-color: rgb(62, 109, 218);
+    padding:10px;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size:27px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    width:640px;
+    margin: 0 auto 100px;
+    cursor:pointer;
+    opacity:0;
+    transition:opacity 2s;
+}
+.congrats{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(35, 185, 35);
+    opacity:0;
+    transition:opacity 1s;
+}
